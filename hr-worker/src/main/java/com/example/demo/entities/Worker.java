@@ -46,12 +46,13 @@ public class Worker implements Serializable{
 		this.name = name;
 	}
 
-	public Double getIncome() {
+
+	public Double getDailyIncome() {
 		return dailyIncome;
 	}
 
-	public void setIncome(Double income) {
-		dailyIncome = income;
+	public void setDailyIncome(Double dailyIncome) {
+		this.dailyIncome = dailyIncome;
 	}
 
 	@Override
